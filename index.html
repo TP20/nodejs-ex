@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Thujan's Resume</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="css/projectPage.css">
+  <link rel="stylesheet" type="text/css" href="css/homePage.css">
+  <link rel="stylesheet" type="text/css" href="css/experiencePage.css">
+  <link rel="stylesheet" type="text/css" href="css/aboutPage.css">
+  <link rel="stylesheet" type="text/css" href="css/contactPage.css">
+	<link rel="stylesheet" type="text/css" href="css/resume.css">
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oregano:400,400italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:300,400' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Bubblegum+Sans' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Economica' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body class="zoom-moz">
+<!--    <div class="loader"></div>-->
+    <div id ="mobileVersion">
+        <nav class="navbar" id="navigationBar" style="display:block; background-color:#0C477A;">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                  <button type="button" style="color:white" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span style="background-color:#0C477A; color:white" class="pull-left glyphicon glyphicon-menu-hamburger btn-lg"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li role="presentation"><a style="color:white" onclick="SetVisibilityFor.mobilePage('#homePage_Mobile')" role="menuitem" tabindex="-1">Home</a></li>
+                        <li class="presentation" role="presentation"><a onclick="SetVisibilityFor.mobilePage('#aboutPage_Mobile')" style="color:white"  role="menuitem" tabindex="-1">About Me</a></li>
+    <!--                    <li role="presentation"><a style="color:white" role="menuitem" tabindex="-1" href="#intro">Computer Literacy</a></li>-->
+                        <li role="presentation"><a style="color:white" onclick="SetVisibilityFor.mobilePage('#experiencePage_Mobile')" role="menuitem" tabindex="-1">Experience</a></li>
+                        <li role="presentation"><a style="color:white" onclick="SetVisibilityFor.mobilePage('#projectPage_Mobile')" role="menuitem" tabindex="-1">Projects</a></li>
+                        <li role="presentation"><a style="color:white" onclick="SetVisibilityFor.mobilePage('#contactPage_Mobile')" role="menuitem" tabindex="-1">Contact Info</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div id="homePage_Mobile" style="display:none;">
+            <div class="col-sm-6 col-xs-6 homePage_Icon" onclick="SetVisibilityFor.mobilePage('#aboutPage_Mobile')" style="border:black;  margin:0px auto; margin:2px; display:block; height:150px; width:150px" id ="aboutMe_Mobile">
+            </div>
+            <div class="col-sm-6 col-xs-6 homePage_Icon" onclick="SetVisibilityFor.mobilePage('#contactPage_Mobile')" style ="border:black; margin:0px auto; margin:2px; display:block; height:150px; width:150px" id ="contactIcon_Mobile">
+            </div>
+            <div class="col-sm-6 col-xs-6 homePage_Icon" onclick="SetVisibilityFor.mobilePage('#projectPage_Mobile')" style="border:black; margin:0px auto; margin:2px; display:block; height:150px; width:150px" id ="projectsIcon_Mobile">
+            </div>
+            <div class="col-sm-6 col-xs-6 homePage_Icon" style="border:black; margin:0px auto; display:block;  height:150px; margin:2px; width:150px" id ="ratesIcon_Mobile">
+            </div>
+            <div class="col-sm-6 col-xs-6 homePage_Icon" onclick="SetVisibilityFor.mobilePage('#experiencePage_Mobile')" style="border:black; margin:0px auto; margin:2px; display:block; height:150px; width:150px" id ="experienceIcon_Mobile">
+            </div>
+            <div class="col-sm-6 col-xs-6 homePage_Icon" style="border:black; height:150px; margin:2px; width:150px" id ="literacyIcon_Mobile">
+            </div>
+
+            <div data-ride="carousel" class="col-sm-6 col-xs-6 homePage_Icon carousel slide" style="border:black; position:relative; left:-14px; margin:2px;" id="mobileCarousel">
+                <!-- width 179px -->
+                <div role="listbox" class="carousel-inner mobile-carousel-inner">
+                    <div class="item active mobile-carousel-inner" id="carouselImgMlh_Mobile" onclick="window.location='http://m-thujan.rhcloud.com/';">
+                    </div>
+                    <!-- <div class="item active mobile-carousel-inner" id="carouselImgRyerson_Mobile" onclick="window.location='http://ryeanalytics.comli.com/';">
+                    </div> -->
+                    <div class="item mobile-carousel-inner" id="carouselImgWysdom_Mobile">
+                    </div>
+										<div class="item mobile-carousel-inner" id="carouselImgLunchApp_Mobile" onclick="window.location='apk/android-debug.apk';">
+										</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="aboutPage_Mobile">
+            <div class="col-sm-12 img-circle" id="thujanPic"> </div>
+            <div class="col-sm-12" style="text-align:center">
+                <img alt="About Me Header" height= "91" width= "293" src="images/about_me.png">
+            </div>
+            <div class="col-sm-12" id="aboutMeSummaryText_Mobile">
+                <p > I am looking to obtain a career in the field of Information Technology where I can effectively contribute to the organization in meeting its objectives and be able to provide
+                    technical solutions, defining computer-related needs, system designs and analyzing problems and finding innovative solutions while taking a methodical approach to work that
+                    requires precision, as well as taking responsibility for projects that require planning
+                </p>
+            </div>
+        </div>
+        <div id="projectPage_Mobile">
+                <div class="col-sm-12">
+                    <div class="col-sm-6">
+                        <p class="mobileHeader">Development Projects </p>
+                    </div>
+                </div>
+                <ul class="col-sm-12" id="projectList_Mobile">
+											<li> <button onclick="SetVisibilityForProjectPage.descriptions('#lunchProjectButton_')"  id="lunchProjectButtonMobile_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> LunchExpress </button> </li>
+                      <li> <button onclick="SetVisibilityForProjectPage.descriptions('#sbProjectButton_')" id="sbProjectButtonMobile_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> SketchBook </button> </li>
+                      <li> <button onclick="SetVisibilityForProjectPage.descriptions('#plpProjectButton_')" id="plpProjectButtonMobile_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> PLP Autos Database </button> </li>
+                      <li> <button onclick="SetVisibilityForProjectPage.descriptions('#irsProjectButton_')" id="irsProjectButtonMobile_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> Information Retrieval System </button>  </li>
+                      <li> <button onclick="SetVisibilityForProjectPage.descriptions('#vswProjectButton_')" id="vswProjectButtonMobile_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> Video Sharing Website </button> </li>
+								</ul>
+                <div class="col-sm-5">
+										<p id ="lunchProjectDescription_Mobile" class="projectDescription_Mobile">
+													<b>Tools: </b> HTML5, CSS3, Javascript, PHP, MySQL <br>
+													<b> APK: </b> <a href="apk/android-debug.apk"> LunchExpress </a> <br>
+													<b>Description:</b> Application used to make lunch orders amongst team's in the work environement. Compatable with android devices. </em>
+										</p>
+                    <p id ="sbProjectDescription_Mobile" class="projectDescription_Mobile">
+                          <b>Tools: </b> HTML5, CSS3, Javascript, PHP, MySQL <br>
+                          <b> URL: </b> <a href="https://sketchapp-thujan.rhcloud.com/"> SketchBook </a> <br>
+                          <b>Description:</b> Created a web application which would allow users to upload images to server and edit uploaded
+                          images using integrated PIXLR API. Users could then rate and comment on eachother's images.  Note: <em> Work in progress, adding
+                          more features. </em>
+                    </p>
+                    <p id ="plpProjectDescription_Mobile" class="projectDescription_Mobile">
+                          <b>Tools: </b> IBM DB2 8.2.2 and UNIX Shell Script <br>
+                          <b>Description:</b> Designed a mock-up database for an Automobile firm with a team of 4. Database
+                          consisted of data for employees, back office roles and etc. Database was developed in 2 phases.
+                          The 1st phase consisted of creating the Enterprise Description, Functional Requirements, the
+                          Conceptual Schema and the Data Dictionary. The 2nd phase consisted of creating a User
+                          Interface for employees to use when applying queries to the database. Created numerous SQL
+                          queries considered to be useful for employees when using the UI of database via a UNIX shell
+                          script menu.
+                    </p>
+                    <p id ="irsProjectDescription_Mobile" class="projectDescription_Mobile">
+                         <b>Tools: </b> Java <br>
+                         <b>Description:</b> Developed an application which enabled a user to request for terms from a
+                         document collection. The program displayed the document ID, the title, the term frequency,
+                         all the positions the term occurred in the document collection.
+                    </p>
+                    <p id ="vswProjectDescription_Mobile" class="projectDescription_Mobile">
+                         <b>Tools: </b> HTML5, CSS3, PERL <br>
+                         <b>Description:</b> Developed a website that allowed users to upload videos, images and a text file
+                         description of the video on a server. The server side was developed with PERL and was also
+                         converted to PHP for the same purpose. An external CSS was used to design the website.
+                    </p>
+                </div>
+        </div>
+        <div id="experiencePage_Mobile">
+            <div class="col-sm-12">
+                <p class="mobileHeader">Relevant Work Experience</p>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="col-sm-12 img-circle " id="wysdomPicExperience_Mobile">
+                </div>
+                <div class="col-sm-12 experienceDescription_Mobile">
+                    <span> <br> <b> CrowdCare Corporation </b> <br> <i> QA Analyst/Automation </i> <br> December 2014 - Present <br> </span>
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="col-sm-12 img-circle" id="mlhPicExperience_Mobile">
+                </div>
+                <div class="col-sm-12 experienceDescription_Mobile">
+                    <span> <br> <b> Maple Leaf Harvest </b> <br> <i> Web Developer </i> <br> October 2014 - February 2015 <br></span>
+                </div>
+            </div>
+
+            <div class="col-sm-12">
+                <div class="col-sm-12 img-circle" id="ryersonPicExperience_Mobile">
+                </div>
+                 <div class="col-sm-12 experienceDescription_Mobile">
+                     <span> <br> <b> Ryerson University </b> <br><i> Research and Development</i> <br> November 2013 - May 2014 <br></span>
+                </div>
+            </div>
+        </div>
+        <div id="contactPage_Mobile" style="height:100%;">
+            <div class="col-sm-12">
+                <p class="mobileHeader">Contact Info</p>
+            </div>
+            <p class="mobileContactInfo_Subheading"> Full Name: <span class="aboutMeSummaryText_Mobile"> Thujan Paramsothy </span></p>
+            <p class="mobileContactInfo_Subheading"> Phone Number : <span class="aboutMeSummaryText_Mobile"> (647) 992 -7444 </span></p>
+            <p class="mobileContactInfo_Subheading"> Email Address: <span class="aboutMeSummaryText_Mobile"> thujan2@gmail.com </span></p>
+        </div>
+        <div class="footer" style="margin-top:5%;">
+        </div>
+    </div>
+	<div id="desktopVersion">
+		<div class="container" style="width:1300px;">
+			<div class="jumbotron" id="laptopImage">
+                <div id="homePage" style="display:block;">
+                    <div class ="col-sm-12 col-xs-12" id="homePage_Desktop">
+                        <div class="container col-sm-12" style="opacity:0.9">
+                            <div class="icons_rowOne col-sm-12">
+                                <div id="aboutIcon_" class="col-sm-3">
+                                    <img width="180" height="150" alt="About Icon" onclick= "SetVisibilityFor.desktopPage('#aboutPage','#homePage')" src="images/About-2.jpg">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-12">
+                                            <img id="projectIcon_" alt="Project Icon" onclick= "SetVisibilityFor.desktopPage('#projectPage','#homePage')" src ="images/projects-image-3.jpg">
+                                            <img id="languageIcon_" alt="Language Icon" src="images/literacy-3.jpg">
+                                        </div>
+                                        <div class="col-sm-12">
+                                            <img id="experienceIcon_" onclick= "SetVisibilityFor.desktopPage('#experiencePage','#homePage')" alt="Experience Icon" src="images/desktop4.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-ride="carousel" class="col-sm-5 carousel slide" id="myCarousel">
+                                    <div role="listbox" class="carousel-inner">
+                                        <div class="item active" id="carouselImgMlh_Desktop" onclick="window.location='http://m-thujan.rhcloud.com/';">
+                                        </div>
+                                        <!-- <div class="item" id="carouselImgRyerson_Desktop" onclick="window.location='http://ryeanalytics.comli.com';">
+                                        </div> -->
+                                        <div class="item" id="carouselImgVidtube_Desktop" onclick="window.location='https://sketchapp-thujan.rhcloud.com/';">
+                                        </div>
+																				<div class="item" id="carouselImgLunchApp_Desktop" onclick="window.location='apk/android-debug.apk';">
+																				</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 icons_rowTwo">
+                                <div class="col-sm-3">
+                                    <img id="contactIcon_" data-toggle="modal" data-target ="#myModal" alt="Contact Icon" width="180" height="78" src="images/contact-2.jpg">
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="col-sm-12">
+                                        <div class="col-sm-4">
+                                            <img id="ratesIcon_"  alt="Rates Icon" height="78" width="190" style="position:relative;"  src="images/stock-3.jpg">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-5" id="carouselButtons">
+                                    <div class="btn-group" id="carouselPlay_">
+                                        <img width="30" height="30" alt= "Play Button" src="images/playButton.png">
+                                    </div>
+                                    <div class="btn-group" id="carouselPause_">
+                                        <img width="30" height="30" alt="Pause Button" src="images/pauseButton.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="aboutPage">
+                    <div class=" col-sm-12 desktop-navigation-bar">
+                        <ul class="nav nav-pills pull-right">
+                           <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#homePage','#aboutPage')">Home</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#aboutPage','#aboutPage')">About Me</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#experiencePage','#aboutPage')">Experience</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#projectPage','#aboutPage')">Projects</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" data-toggle="modal" data-target ="#myModal"> Contact Info </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="aboutBody_Desktop" class="col-sm-12 col-xs-12">
+                        <div style="opacity:0.9" class="col-sm-12">
+                            <div class="col-sm-12">
+                                <img height="125" alt="About Me Header" id="aboutMe_text" src="images/about_me.png">
+                            </div>
+                            <div class="col-sm-12 icons_columnOne">
+                               <div class="container col-sm-6" id="aboutMeSummaryText_Desktop">
+                                 <p> I am looking to obtain a career in the field of Information Technology where I can effectively contribute to the organization in meeting its objectives and be able to provide technical solutions, defining computer-related needs, system designs and analyzing problems and finding innovative solutions while taking a methodical approach to work that requires precision, as well as taking responsibility for projects that require planning  </p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content" id="modalContent" style="width:450px;" >
+                            <div class="modal-header" id="modalHeaderText" style="background-color:#0C477A;">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title"  id="myModalLabel">Contact Info</h4>
+                            </div>
+                            <div class="modal-body container" id="modalBodyText">
+                                <p id="contactModal_Text"> Name: Thujan Paramsothy <br> Mobile Number: (647) 992-7444 <br> Email: thujan2@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="projectPage">
+                    <div class="col-sm-12 desktop-navigation-bar">
+                        <ul class="nav nav-pills pull-right">
+                            <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#homePage','#projectPage')">Home</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#aboutPage','#projectPage')">About Me</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#experiencePage','#projectPage')">Experience</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#projectPage','#projectPage')">Projects</a>
+                            </li>
+                            <li>
+                                <a class="navBarTxtFont" data-toggle="modal" data-target ="#myModal"> Contact Info </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class ="col-sm-12 col-xs-12" id="projectBody_Desktop">
+                        <div class="container">
+                            <div class="col-sm-12">
+                                <div class="col-sm-6">
+                                    <p id="projectHeader">My Development Projects </p>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <ul id="projectList">
+																		<li> <button onclick="SetVisibilityForProjectPage.descriptions('#lunchProjectButton_')"  id="lunchProjectButton_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> Lunch Express </button> </li>
+                                    <li> <button onclick="SetVisibilityForProjectPage.descriptions('#sbProjectButton_')" id="sbProjectButton_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> SketchBook </button> </li>
+                                    <li> <button onclick="SetVisibilityForProjectPage.descriptions('#plpProjectButton_')" id="plpProjectButton_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> PLP Autos Database </button> </li>
+                                    <li> <button onclick="SetVisibilityForProjectPage.descriptions('#irsProjectButton_')" id="irsProjectButton_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> Information Retrieval System </button>  </li>
+                                    <li> <button onclick="SetVisibilityForProjectPage.descriptions('#vswProjectButton_')" id="vswProjectButton_" class="projectButton btn btn-default ui-btn ui-shadow ui-corner-all" type="button"> Video Sharing Website </button> </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-5" style="border: #F6F6F6 solid; overflow: scroll; overflow-x:hidden; height:176px;">
+																<p id ="lunchProjectDescription" class="projectDescription">
+																			<b>Tools: </b> AngularJS, Ionic, FireBase <br>
+																			<b> APK: </b> <a href="apk/android-debug.apk"> LunchExpress </a> <br>
+																			<b>Description:</b> Application used to make lunch orders amongst team's in the work environement. Compatable with android devices. </em>
+																</p>
+														    <p id ="sbProjectDescription" class="projectDescription">
+                                      <b>Tools: </b> HTML5, CSS3, Javascript, PHP, MySQL <br>
+                                      <b> URL: </b> <a href="https://sketchapp-thujan.rhcloud.com/"> SketchBook </a> <br>
+                                      <b>Description:</b> Created a web application which would allow users to upload images to server and edit uploaded
+                                      images using integrated PIXLR API. Users could then rate and comment on eachother's images.  Note: <em> Work in progress, adding
+                                      more features. </em>
+                                </p>
+                                <p id ="plpProjectDescription" class="projectDescription">
+                                    <b>Tools: </b> IBM DB2 8.2.2 and UNIX Shell Script <br>
+                                    <b>Description:</b> Designed a mock-up database for an Automobile firm with a team of 4. Database
+                                    consisted of data for employees, back office roles and etc. Database was developed in 2 phases.
+                                    The 1st phase consisted of creating the Enterprise Description, Functional Requirements, the
+                                    Conceptual Schema and the Data Dictionary. The 2nd phase consisted of creating a User
+                                    Interface for employees to use when applying queries to the database. Created numerous SQL
+                                    queries considered to be useful for employees when using the UI of database via a UNIX shell
+                                    script menu.
+                                </p>
+                                <p id ="irsProjectDescription" class="projectDescription">
+                                    <b>Tools: </b> Java <br>
+                                    <b>Description:</b> Developed an application which enabled a user to request for terms from a
+                                    document collection. The program displayed the document ID, the title, the term frequency,
+                                    all the positions the term occurred in the document collection.
+                                </p>
+                                <p id ="vswProjectDescription" class="projectDescription">
+                                   <b>Tools: </b> HTML5, CSS3, PERL <br>
+                                   <b>Description:</b> Developed a website that allowed users to upload videos, images and a text file
+                                   description of the video on a server. The server side was developed with PERL and was also
+                                   converted to PHP for the same purpose. An external CSS was used to design the website.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id= "experiencePage">
+                        <div class="col-sm-12 desktop-navigation-bar">
+                            <ul class="nav nav-pills pull-right">
+                               <li>
+                                    <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#homePage','#experiencePage')">Home</a>
+                                </li>
+                                <li>
+                                    <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#aboutPage','#experiencePage')">About Me</a>
+                                </li>
+                                <li>
+                                    <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#experiencePage','#experiencePage')">Experience</a>
+                                </li>
+                                <li>
+                                    <a class="navBarTxtFont" onclick="SetVisibilityFor.desktopPage('#projectPage','#experiencePage')">Projects</a>
+                                </li>
+                                <li>
+                                    <a class="navBarTxtFont" data-toggle="modal" data-target ="#myModal"> Contact Info </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-5"> <p style="text-align:center; position:relative; top: 30px; font-family: 'Oswald', sans-serif; color:black; font-weight:400;"> Relevant Work Experience </p></div>
+
+                        <div id="experienceBody_Desktop" style= "overflow: scroll; overflow-x: hidden; top:40px; left: -10px;" class="col-sm-12 col-xs-12">
+                            <div class="col-sm-12" style="margin-top:20px">
+                                        <div>
+                                            <div class="col-sm-5">
+                                                <p style="text-align:center">
+                                                    <img height="80" width="80"  alt="Wysdom Logo" src="css/wysdom.png">
+                                                </p>
+                                                <p class ="experience_CompanyNameText"> CrowdCare Corporation <br> QA Analyst/Automation </p>
+                                                <p class="experience_DurationText"> December 2014 - May 2016 </p>
+                                                <span> </span>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <ul class="experience_Description pull-left">
+                                                    <li> Fully managed testing life cycle for QA department </li>
+                                                    <li> Performed functional, regression, ad hoc, smoke, end-to-end, and GUI testing </li>
+                                                    <li> Created, maintained, and executed automated test scripts for web and mobile application </li>
+                                                    <li> Maintained manual test plans for web and mobile application using TestRail </li>
+                                                    <li> Monitored server logs and reported errors to back-end team </li>
+                                                    <li> Provided ongoing feedback to CTO on the current status of projects </li>
+                                                    <li> Distributed release notes to team highlighting existing bugs and new features after promoting web/mobile application to production. </li>
+                                                </ul>
+                                                <span> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12" style="margin-top:20px;">
+                                        <div>
+                                            <div class="col-sm-5">
+                                                <p style="text-align:center">
+                                                    <img height="80" width="80"  alt="MLH Logo" src="css/mlh.jpg">
+                                                </p>
+                                                <p class ="experience_CompanyNameText"> Maple Leaf Harvest <br> Web Developer </p>
+                                                <p class="experience_DurationText"> October 2014 - February 2015 </p>
+                                                <span> </span>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <ul class="experience_Description pull-left">
+                                                    <li> Developed and designed website from scratch </li>
+                                                    <li> Worked closely with director and made appropriate changes as needed </li>
+                                                    <li> Website Link: <a href="http://m-thujan.rhcloud.com/"> Maple Leaf Harvest </a></li>
+                                                </ul>
+                                                <span> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12" style="margin-top:20px;">
+                                        <div>
+                                            <div class="col-sm-5">
+                                                 <p style="text-align:center">
+                                                    <img height="80" width="80"  alt="Ryerson Logo" src="css/ryerson.png">
+                                                </p>
+                                                <p class ="experience_CompanyNameText"> Ryerson University <br> Research and Development </p>
+                                                <p class="experience_DurationText"> November 2013 - May 2014 </p>
+                                                <span> </span>
+                                            </div>
+
+                                            <div class="col-sm-7">
+                                                <ul class="experience_Description pull-left">
+                                                    <li> Developed software application under the supervision of Prof. Cherie Ding </li>
+                                                    <li>
+                                                        <ul style="margin-bottom: 10px;">
+                                                            <li> Purpose: Software will be used by librarians to analyze server logs to understand the
+                                                                 actual usage pattern from users. This will allow librarians to understand the real
+                                                                 demands from Ryerson users so that the library could purchase, update, and manage
+                                                                 resources in a more cost-effective way.
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li> Conducted research on open source applications which had potential of being implemented with software developed. </li>
+                                                    <li> Created a User Interface using Java which interacted with database containing server log data using MySQL. Various graphs created using JasperReports based on librarian’s queries using the UI and data from the database. </li>
+                                                    <li> Created an application which reduced noise from server logs </li>
+                                                </ul>
+                                                <span> </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-78728532-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script src= "http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/carousal.js"> </script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/actions.js"></script>
+</body>
+
+</html>
