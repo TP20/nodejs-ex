@@ -1,0 +1,97 @@
+.projectButton {
+   /* margin:5px; width:100%; 
+    */
+    color:rgb(60,59,59); 
+    font-family: 'Oswald', sans-serif; 
+    font-weight:400;
+    margin:5px; 
+    width:100%;
+}
+
+#projects {
+    display:none; 
+    background: none repeat scroll 0% 0% rgb(255, 255, 255); 
+    background-size: 1280px 736px; 
+    height: 589px; 
+    background-image: url('images/ipad.png'); 
+    background-repeat: no-repeat;
+}
+
+#projectHeader {
+    text-align:center;
+    color:rgb(59,57,71); 
+    font-family: 'Oswald', sans-serif; 
+    font-weight:400;
+}
+
+#experienceHeader {
+    text-align:center;
+    color:rgb(59,57,71); 
+    font-family: 'Oswald', sans-serif; 
+    font-weight:400;
+}
+
+p.projectDescription {
+    display:none;
+/*    font-size: 12.5px;*/
+    text-align:justify; 
+    color:rgb(60,59,59); 
+/*    font-family: 'Source Sans Pro';*/
+/*    font-weight:400; */
+    margin-top:8px; 
+    color:black;
+        font-size:12px;
+
+}
+
+p.projectDescription_Mobile {
+    display:none;
+/*    font-size: 12.5px;*/
+    text-align:justify; 
+    color:rgb(60,59,59); 
+/*
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-weight:400; 
+*/
+    margin-top:8px;
+    margin:2%;
+    font-size:12px;
+}
+
+#projectList {
+    list-style-type:none; 
+    margin-right:30px;
+}
+
+#projectList_Mobile {
+    list-style-type:none;
+/*    width:100%;*/
+/*    margin-right:30px;*/
+}
+
+#projectPage {
+    left:100px; 
+    width:935px; 
+    height: 385px; 
+    top:-20px; 
+    display:none; 
+    background-repeat:none; 
+    z-index:3; 
+    position:relative;
+}
+
+#projectPage_Mobile {
+    display:none;
+}
+
+#projectBody_Desktop {
+    position:relative;  
+    height: 228px; 
+    top:50px; 
+    left:40px;
+}
+
+/*
+#plpProjectDescription p, #irsProjectDescription p, #vswProjectDescription p {
+    display:none;
+}*/

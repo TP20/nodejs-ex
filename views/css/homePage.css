@@ -1,0 +1,287 @@
+#carouselImgMlh_Mobile {
+    background-image:url("../images/mlh_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgRyerson_Mobile {
+    background-image:url("../images/rye_mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgVidtube_Mobile {
+    background-image:url("../images/sketchbook2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgWysdom_Mobile {
+    background-image:url("wysdom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgLunchApp_Mobile {
+    background-image:url("../images/lunch - Copy.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgMlh_Desktop{
+    background-image:url("../images/mlh.png");
+    height:150px;
+    width:300px;
+    background-position: right 0px bottom 3px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgRyerson_Desktop {
+    background-image:url("../images/rye.png");
+    height:150px;
+    width:300px;
+    background-position: right 20px bottom 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgLunchApp_Desktop {
+    background-image:url("../images/lunch - Copy.png");
+    height:150px;
+    width:300px;
+    background-position: right 17px bottom -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgVidtube_Desktop {
+    background-image:url("../images/sketchbook2.jpg");
+    height:150px;
+    width:300px;
+    background-position: right 3px bottom -10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgWysdom_Desktop {
+    background-image:url("wysdom.png");
+    height:150px;
+    width:300px;
+    background-position: right 10px bottom 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#carouselImgMlh_Desktop:hover{
+    cursor:pointer;
+}
+
+#carouselImgRyerson_Desktop:hover {
+    cursor:pointer;
+}
+
+#carouselImgVidtube_Desktop:hover {
+    cursor:pointer;
+}
+
+#carouselImgWysdom_Desktop:hover {
+    cursor:pointer;
+}
+
+#carouselImgLunchApp_Desktop:hover {
+  cursor:pointer;
+}
+
+#carouselPlay_ {
+    display:none;
+	opacity:0.7
+}
+
+#carouselPlay_:hover{
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#carouselPause_:hover {
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#carouselButtons {
+    height:78px;
+    width:300px;
+    background-position: right 20px bottom 10px;
+}
+
+#myCarousel {
+    width:300px;
+}
+
+#mobileCarousel {
+
+}
+
+#thujanPic {
+     background-image: url("../images/my_image.jpg");
+     background-position:  -53px -1px;
+     background-repeat: no-repeat;
+     background-size: 280px auto;
+     border:none;
+     height: 205px;
+     width: 195px;
+	 display:block;
+     float: none;
+     margin: 0px auto;
+}
+
+
+#projectIcon_ {
+    position:relative;
+    width: 90px;
+    height: 90px;
+}
+
+#aboutMe_Mobile{
+
+    background-image: url('../images/About_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:-20px;
+    opacity:0.9;
+}
+
+#projectsIcon_Mobile{
+    background-image: url('../images/project_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    opacity:0.9;
+}
+
+#experienceIcon_Mobile{
+    background-image: url('../images/experience_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity:0.9;
+}
+
+#literacyIcon_Mobile{
+    background-image: url('../images/literacy_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity:0.9;
+}
+
+#contactIcon_Mobile{
+    background-image: url('../images/contact_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity:0.9;
+}
+
+#ratesIcon_Mobile{
+    background-image: url('../images/rates_mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity:0.9;
+}
+
+#contactIcon_Mobile:hover{
+    cursor:pointer;
+}
+
+#ratesIcon_Mobile:hover{
+    cursor:pointer;
+}
+
+#literacyIcon_Mobile:hover{
+    cursor:pointer;
+}
+
+#projectsIcon_Mobile:hover{
+   cursor:pointer;
+}
+
+#experienceIcon_Mobile:hover{
+    cursor:pointer;
+}
+
+#literacyIcon_Mobile:hover{
+    cursor:pointer;
+}
+
+#contactIcon_Mobile:hover{
+    cursor:pointer;
+}
+
+#rateIcon_Mobile:hover{
+    cursor:pointer;
+}
+
+#aboutMe_Mobile:hover{
+    cursor:pointer;
+}
+
+#languageIcon_ {
+    position:relative;
+    left: 6px;
+    height:90px;
+    width: 90px;
+}
+
+#experienceIcon_ {
+    top:10px;
+    height:50px;
+    width:190px;
+    position:relative;
+}
+
+#languageIcon_:hover {
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#experienceIcon_:hover {
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#ratesIcon_:hover{
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#projectIcon_:hover {
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#aboutIcon_:hover{
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#contactIcon_:hover{
+    opacity:0.9;
+    cursor:pointer;
+}
+
+#homePage_Desktop {
+    position:relative;
+    height: 228px;
+    top:80px;
+    left:40px;
+}
+
+#homePage {
+    left:100px;
+    width:935px;
+    height: 385px;
+    top:-20px ;
+    display:block;
+    background-repeat:none;
+    z-index:3;
+    position:relative;
+    background-size: 100% 100%;
+    background-image: url("../images/dell_image.jpg");
+}

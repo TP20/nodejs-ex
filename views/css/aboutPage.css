@@ -1,0 +1,49 @@
+#aboutBody_Desktop {
+    position:relative; 
+    height: 228px; 
+    top:10px; 
+    left:0px;
+}
+
+#aboutMeSummaryText_Mobile {
+    color: rgb(53,53,54); 
+/*    margin-left: 30px; */
+    width:70%; z-index:2;  
+    float: none; 
+    margin: 0px auto;  
+    font-family: 'Oregano';
+    font-size:16px;
+    text-align:justify;
+/*    margin-top:5%;*/
+}
+
+#aboutMeHeader_Mobile {
+    float: none; 
+    margin: 0px auto;
+    background-image: url("../images/my_image.jpg");
+}
+
+#aboutMeSummaryText_Desktop {
+    text-align:justify; 
+    margin-top: -10px; 
+    color: rgb(53,53,54); 
+    width:70%; z-index:2; 
+    font-family: 'Oswald', sans-serif; 
+    font-weight:400;
+    font-size:19px; 
+    margin-left:50px;
+}
+
+#aboutPage_Mobile {
+    display:none;
+}
+
+#aboutPage {
+    left: 100px; 
+    width:935px;
+    display:none;
+    height: 385px;
+    top: -20px; 
+    z-index: 3;
+    position: relative;
+}

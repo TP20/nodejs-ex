@@ -1,0 +1,44 @@
+#contactModal_Text{ 
+    text-align:center; 
+    font-family: 'Indie Flower', cursive; 
+    text-align:center;
+    color:black;
+}
+
+#contactHeaderText {
+    text-align:center; 
+    color: white; 
+    font-family: 'Chewy', cursive; 
+    font-size:30px
+}
+
+#contactPage_Mobile {
+    display:none;
+}
+
+.modal-content  {
+    float:none;
+    margin: 0px auto;
+}
+
+.mobileContactInfo_Subheading {
+/*    font-family: 'Arvo';*/
+    font-family: 'Indie Flower', cursive; 
+    text-align:center; 
+    font-size: 20px;
+    color:black;
+    text-align:center;
+}
+
+#modalBodyText {
+    text-align:center; 
+    font-family: 'Indie Flower', cursive; 
+    text-align:center
+}
+
+#myModalLabel {
+    color:white; 
+    font-family: 'Fredoka One', cursive; 
+    text-align:center;
+}
+
